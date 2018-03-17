@@ -1,15 +1,11 @@
-<h1>HTML/CSS/JavaScript Boilerplate with SASS, GULP, Babel, AutoPrefixer, Browsersync.</h1>
+<h1>Simple CSS hamburger menu with transition</h1>
 
 Steps:
 
 1 - Git clone this repo into your project folder.
 
-2 - Open your terminal, navigate to the project folder and type: npm install
+2 - Copy and paste the HTML & CSS into your current project and modify styling as needed.
 
-3 - Type into the terminal: gulp
-
-4 - Leave gulp running to see live changes with BrowserSync.
-
-5 - Code away!
+5 - Enjoy!
 
   
