@@ -6,6 +6,10 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Hamburger Menu</title>
 	<link rel="stylesheet" href="./public/styles/style.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l"
+	 crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c"
+	 crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -14,7 +18,9 @@
 			<li class="hamburger__menu" tab-index="0">
 				<a href="">
 					<div class="hamburger__menu__imgdiv">
-						<img src="./public/images/icon_hamburger.png" alt="">
+						<!-- The commented out line is if you would rather use an image over using font-awesome -->
+						<!-- <img src="./public/images/icon_hamburger.png" alt=""> -->
+						<i class="fas fa-bars"></i>
 					</div>
 				</a>
 				<ul class="hamburger__menu__content">
@@ -28,6 +34,6 @@
 		</ul>
 	</nav>
 
-	<!-- <script src="public/scripts/main.js"></script> -->
+	<script src="public/scripts/main.js"></script>
 </body>
 </html>
